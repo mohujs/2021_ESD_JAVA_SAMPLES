@@ -34,6 +34,7 @@ public static void main(String args[]){
 	int inp1=1;
 	int inp2=1;
 	LogicGates lg = new LogicGates();
+	LogicGates lg1 = new LogicGates();
 	int result_or = lg.or_gate(inp1,inp2);
 	int result_nor = lg.nor_gate(inp1,inp2);
 	System.out.println("Result of or_gate :"+result_or);
